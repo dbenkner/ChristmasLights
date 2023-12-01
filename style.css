@@ -2,31 +2,41 @@
     width: 100%;
 }
 .light {
-    background-color: green;
     width: 20px;
     height: 30px;
     display: inline-block;
     border-radius: 50%;
     margin-left: 5px;
     margin-right: 5px;
+    border-style: solid;
+    padding:0px;
+    border-width: 1px;
 }
-#light1 {
+
+.light1 {
     background-color: blue;
+    border-color:rgb(80, 80, 255);
+    
 }
-#light2 {
+.light2 {
     background-color: green;
+    border-color:rgb(0, 202, 0);
 }
-#light3 {
+.light3 {
     background-color: yellow;
+    border-color: rgb(255, 255, 255);
 }
-#light4 {
+.light4 {
     background-color: orange ;
+    border-color: rgb(255, 206, 114);
 }
-#light5 {
+.light5 {
     background-color: red;
+    border-color:rgb(245, 89, 89);
 }
-#light6 {
+.light6 {
     background-color: purple;
+    border-color:rgb(223, 0, 223);
 }
 body {
     background-color: black;
