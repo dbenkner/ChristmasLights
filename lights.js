@@ -25,9 +25,12 @@ const flash = () => {
     }
 }
 var sound = new Howl({
-    src: ['song.mp3']
+    src: ['song.mp3'],
+    //html5: true,
+    loop: true
 });
 $(document).ready(getWidth());
 sound.play();
+
 setInterval(flash, 500);
 window.onresize = getWidth;
