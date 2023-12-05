@@ -41,3 +41,15 @@
 body {
     background-color: black;
 }
+.snowWrapper{
+    display:inline-block;
+}
+.snow {
+  
+    width: 10px;
+    border-radius: 50%;
+    height: 10px;
+    background: white;
+}
+
+  
